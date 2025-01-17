@@ -1,11 +1,11 @@
 <!-- # At the very begainning of the README.MD, I gonna erratum statement
 See more details in [Erratum_Statement.md](https://github.com/peihaoY/xSlice_Paper/Erratum_Statement.md) -->
 
-# [Erratum_Statement.md](https://github.com/peihaoY/xSlice_Paper/Erratum_Statement.md) (Acknowledgment of Missing Figure) in xSlice Paper
+# [Erratum_Statement.md](https://github.com/peihaoY/xSlice_Paper/blob/main/Erratum_Statement.md) (Acknowledgment of Missing Figure) in xSlice Paper
 
 We would like to begin by acknowledging an oversight in our recent submission. Specifically, we inadvertently omitted a crucial figure from the version of the paper. We sincerely apologize for this error and appreciate your understanding.
 
-A detailed statement regarding the missing figure, along with any relevant clarifications, is provided in [Erratum_Statement.md](https://github.com/peihaoY/xSlice_Paper/Erratum_Statement.md). We kindly ask that you refer to this for additional context and clarification.
+A detailed statement regarding the missing figure, along with any relevant clarifications, is provided in [Erratum_Statement.md](https://github.com/peihaoY/xSlice_Paper/blob/main/Erratum_Statement.md). We kindly ask that you refer to this for additional context and clarification.
 
 # xSlice: Near-Real-Time Resource Slicing for QoS Optimization in 5G
 xSlice is an online learning algorithm designed for the Near-Real-Time (Near-RT) RAN Intelligent Controller (RIC) in 5G O-RANs. Its primary goal is to dynamically adjust Medium Access Control (MAC)-layer resource allocation in response to changing network conditions such as wireless channel fluctuations, user mobility, traffic variations, and demand shifts.
@@ -16,13 +16,13 @@ xSlice has been implemented on an O-RAN testbed with 10 smartphones. The results
 ## - Getting Started
 ### Minimum hardware requirements:
 - Laptop/Desktop/Server for OAI CN5G and OAI gNB
-    - Operating System: [Ubuntu 24.04 LTS](https://releases.ubuntu.com/24.04/ubuntu-24.04.1-desktop-amd64.iso)
+    - Operating System: Ubuntu 22.04 LTS
     - CPU: 12 cores x86_64 @ 3.5 GHz
     - RAM: 32 GB
 - [USRP N300](https://www.ettus.com/all-products/USRP-N300/) or [USRP X300](https://www.ettus.com/all-products/x300-kit/) or [USRP B210](https://www.ettus.com/all-products/ub210-kit/)
 
 ### Software reference:
-Our system consists of the configuration of RIC + xApp, 5G O-RAN, and 5G Core. xSlice has developed its own architecture and algorithms based on [Flexric](https://gitlab.eurecom.fr/mosaic5g/flexric), [OAI CN5G](https://gitlab.eurecom.fr/oai/cn5g), and [openairinterface5g](https://gitlab.eurecom.fr/oai/openairinterface5g).
+Our system consists of the configuration of RIC + xApp, 5G O-RAN, and 5G Core. xSlice has developed its own architecture and algorithms based on [Flexric](https://gitlab.eurecom.fr/mosaic5g/flexric), [OAI cn5g](https://gitlab.eurecom.fr/oai/cn5g), and [openairinterface5G](https://gitlab.eurecom.fr/oai/openairinterface5g).
 
 ## - Dependencies and Code Clone
 
@@ -101,14 +101,14 @@ sudo make install
 
 ### 2.1 5G Core Setup
 
-Please install and configure OAI CN5G as described here: [OAI CN5G](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_OAI_CN5G.md)
+Please install and configure OAI CN5G as described here: [OAI 5G NR CN tutorial](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_OAI_CN5G.md)
 
 
 
 
 ### 2.2 Pre-requisites
 
-Please find the UHD and other requirements on the [OAI gNB website](https://gitlab.eurecom.fr/oai/openairinterface5g).
+Please find the UHD and other requirements on the [OAI gNB tutorial](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md).
 
  <!-- Build UHD from source
 ```bash

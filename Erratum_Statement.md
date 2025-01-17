@@ -17,7 +17,7 @@ We recently discovered an error in our submitted paper titled "[Near-Real-Time R
 In our paper, an error was identified in **Section V: xSlice Design**, subsection **D: Penalty Definition and Policy Updates**, on **pages 7-8**. Specifically, when discussing the following statement:
 
 ```bash
-We measure the regret value of xSlice both with and without this penalty mechanism. Fig. 7 presents our experimental results. It can be seen that, without the penalty mechanism, the regret is distributed over a large range. In comparison, the penalty mechanism can significantly reduce regret, thus improving the quality of service of all sessions.”
+“We measure the regret value of xSlice both with and without this penalty mechanism. Fig. 7 presents our experimental results. It can be seen that, without the penalty mechanism, the regret is distributed over a large range. In comparison, the penalty mechanism can significantly reduce regret, thus improving the quality of service of all sessions.”
 ```
 
 ## Corrective Action
