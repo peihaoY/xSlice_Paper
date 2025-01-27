@@ -35,7 +35,7 @@ To achieve this, xSlice formulates the Quality-of-Service (QoS) optimization as 
 xSlice has been implemented on an O-RAN testbed with 10 smartphones. The results from extensive experiments show that xSlice reduces performance regret by 67% compared to existing state-of-the-art solutions, demonstrating its effectiveness in optimizing resource allocation and improving network performance in realistic scenarios.
 
 
-## - Getting Started
+## Getting Started
 ### Minimum hardware requirements:
 - Laptop/Desktop/Server for OAI CN5G and OAI gNB
     - Operating System: Ubuntu 22.04 LTS
@@ -46,7 +46,7 @@ xSlice has been implemented on an O-RAN testbed with 10 smartphones. The results
 ### Software reference:
 Our system consists of the configuration of RIC + xApp, 5G O-RAN, and 5G Core. xSlice has developed its own architecture and algorithms based on [Flexric](https://gitlab.eurecom.fr/mosaic5g/flexric), [OAI cn5g](https://gitlab.eurecom.fr/oai/cn5g), and [openairinterface5G](https://gitlab.eurecom.fr/oai/openairinterface5g).
 
-## - Dependencies and Code Clone
+## Dependencies and Code Clone
 
 ## 1. RIC + xApp Setup (https://github.com/peihaoY/xSlice_Paper)
 
@@ -165,7 +165,7 @@ cd ~/xSlice_ORAN/cmake_targets
 - Smartphone set up
 The COTS UE can now search for the network. You can find how to connect UE to gNB on [srsRAN website](https://docs.srsran.com/projects/project/en/latest/tutorials/source/cotsUE/source/index.html).
 
-## - Modified code structure
+## Modified code structure
 In both the RAN and RIC systems, there are numerous code files involved. Below, I have listed the files that I modified or added as part of implementing xSlice. The structure is as follows. For detailed comments and further information, please refer directly to the code.
 
 ### 1. xSlice_xApp
@@ -216,7 +216,7 @@ In both the RAN and RIC systems, there are numerous code files involved. Below, 
 ### 3. Extend xSlice
 If you wish to extend 'xSlice', please review the modification sections and comments in the code above. These will guide you through quickly getting started with implementing your own online learning algorithm in a new xApp.
 
-## - Run xSlice
+## Run xSlice
 ## 1. On 5G Core server:
 ```bash
 cd ~/oai-cn5g
@@ -330,12 +330,12 @@ Triggered internally at ../torch/csrc/utils/tensor_new.cpp:2.
     Please note that xapp_db_ is a compressed file. Be sure to extract it first before reviewing the contents.
     - trandata/ `rewards.csv` 
 
-## - Citation
+## Citation
 If you use our code in your research, please cite our paper:
 ```bash
 Coming soon...
 ```
 
-## - Getting help
+## Getting help
 
 If you encounter a bug or have any questions regarding the paper, the code or the setup process, please feel free to contact us: phyan@msu.edu
